@@ -1,3 +1,5 @@
+import bgImg from '@/assets/background.png'
+
 export default {
   COLORS: {
     WHITE: '#FFFFFF',
@@ -28,4 +30,6 @@ export default {
     XXL: 24,
     XXXL: 32,
   },
+
+  BACKGROUND_IMAGE: bgImg,
 }
