@@ -1,6 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
-import { Text, View } from 'react-native';
-import { styles } from './styles';
+import { StatusBar } from 'expo-status-bar'
+import { Text, View } from 'react-native'
+import { styles } from './styles'
 
 export function SignIn() {
   return (
@@ -8,5 +8,5 @@ export function SignIn() {
       <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
-  );
+  )
 }
